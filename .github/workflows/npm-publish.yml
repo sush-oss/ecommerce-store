@@ -4,6 +4,9 @@
 name: Ecommerce Package
 
 on:
+  push:
+    branches:
+     - master
   release:
     types: [created]
 
