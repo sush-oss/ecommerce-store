@@ -19,9 +19,9 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-        working-directory: ./frontend
+        working-directory: ./backend
       - run: npm test
-        working-directory: ./frontend
+        working-directory: ./backend
 
   publish-npm:
     needs: build
