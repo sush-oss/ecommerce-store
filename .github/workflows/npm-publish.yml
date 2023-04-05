@@ -21,7 +21,7 @@ jobs:
       - run: npm ci
         working-directory: ./backend
       - run: npm test
-        working-directory: ./backend
+        
 
   publish-npm:
     needs: build
