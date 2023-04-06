@@ -4,9 +4,9 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ master ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ master ]
+    branches: [ "master" ]
 env: 
 AZURE-WEBAPP-NAME: EAppStore
 AZURE_WEBAPP-PACKAGEPATH: './backend'
