@@ -8,7 +8,7 @@ on:
   pull_request:
     branches: [ master ]
 env: 
-AZURE-WEBAPP-NAME: E-App-Store
+AZURE-WEBAPP-NAME: EAppStore
 AZURE_WEBAPP-PACKAGEPATH: './backend'
 NODE_VERSION: '14.x'
 
